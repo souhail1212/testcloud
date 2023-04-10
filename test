@@ -1,0 +1,6 @@
+#cloud-config
+hostname: my-instance
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCXgzrvWxyy...
+packages:
+  - apache2
